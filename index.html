@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>naam | Good night's sleep</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/mine.css">
+	<link rel="shortcut icon" href="img/ni.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body id="">
+
+	<!-- Header -->
+	<header class="" id="home">
+		<!-- Header Menu -->
+		<div class="header-menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<div class="navbar-brand">
+						<!-- Brand Icon -->
+						<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 44 44">
+							<g id="Logo" transform="translate(0 0.267)">
+								<circle id="Ellipse_10" data-name="Ellipse 10" cx="21" cy="21" r="21" transform="translate(0 -0.267)"
+									fill="#2980b9" />
+								<path id="Subtraction_1" data-name="Subtraction 1"
+									d="M12.795,25.9a12.563,12.563,0,0,1-9.071-3.725,12.711,12.711,0,0,1-3.7-9.124A13.083,13.083,0,0,1,3.855,3.877,12.932,12.932,0,0,1,12.98.02C14.467.01,15.36.19,15.791.587A13.564,13.564,0,0,0,6.849,13.215a13.037,13.037,0,0,0,8.146,12.269A4.77,4.77,0,0,1,12.795,25.9Z"
+									transform="translate(6.759 14.891) rotate(-34)" fill="#fff" />
+							</g>
+						</svg>
+
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+						aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'>
+								<path stroke='#15C4E7' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'
+									d='M4 7h22M4 15h22M4 23h22' /></svg>
+						</span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<span class="ihome">Home</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#go">
+									<span class="ihome">Zzz</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">
+									<span class="ihome">About</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<span class="ihome">Support</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<span class="ihome">Contact</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Header info -->
+		<div class="header-info">
+			<p class="misssion">Our mission is to give you the right time to <br> <span>wake up.</span></p>
+			<h2 class="find-txt">Find out when to get up</h2>
+			<div class="arrow">
+				<div class="b-go">
+					<a href="#go" class="zzz">
+						<!-- Arrow -->
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48">
+							<g id="arr" transform="translate(-1752 -3301)">
+								<circle id="Ellipse_6" data-name="Ellipse 6" cx="24" cy="24" r="24" transform="translate(1752 3301)"
+									fill="#00c853" />
+								<path id="Union_3" data-name="Union 3"
+									d="M29.8,179.238l-8.91-10.988-8.9,10.978c-1.346,1.661-3.471,2.255-4.745,1.328s-1.215-3.027.131-4.687L17.61,163.24a4,4,0,0,1,4.245-1.6,4.88,4.88,0,0,1,2.315,1.61L34.41,175.878c1.346,1.661,1.406,3.76.131,4.687A2.4,2.4,0,0,1,33.11,181,4.48,4.48,0,0,1,29.8,179.238Z"
+									transform="translate(1796.959 3498.003) rotate(180)" fill="#fff" />
+							</g>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- /Header -->
+
+	<!-- Section One -->
+	<section class="section-sz" id="go">
+		<div class="container m-bg">
+			<div class="sect-size">
+				<div class="time">
+					<h5>A good night's sleep consists of 5-6 complete sleep cycles.</h5>
+					<h5>You should try to wake up at one of the following times:</h5>
+					<button type="button" class="zzz btn btn-primary">Refresh</button>
+				</div>
+				<div id="resultsNow" style="display:block;">
+
+					<table class="table table-borderless text-center">
+						<thead>
+							<tr>
+								<th scope="col" id="myapp"><span>Current Time</span></th>
+								<th scope="col"><span>Wake up - Times</span></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="curr"></td>
+								<td id="">
+									<span id="resultNow1"></span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td id="">
+									<span id="resultNow2"></span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td id="">
+									<span id="resultNow3"></span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td id="">
+									<span id="resultNow4"></span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td id="">
+									<span id="resultNow5"></span>
+								</td>
+							</tr>
+							<tr>
+								<td class=""></td>
+								<td id="">
+									<span id="resultNow6"></span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div> <!-- end resultsNow -->
+			</div>
+		</div>
+	</section>
+	<!-- /Section One -->
+
+	<!-- Section Two -->
+	<section class="section-sz" id="about">
+		<div class="container m-bg">
+			<div class="sect-size">
+				<div>
+					<h2>About Us</h2>
+					<p>Are you slepy? Our brand NAAM it a good choice for a good night's sleep..</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /Section Two -->
+
+	<!-- Section Three -->
+	<section class="section-sz" id="about">
+		<div class="container m-bg">
+			<div class="sect-size">
+				<div>
+					<h2>Support</h2>
+					<p>Are you slepy? Our brand NAAM it a good choice for a good night's sleep..</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /Section Three -->
+
+	<!-- Section Four -->
+	<section class="section-sz" id="about">
+		<div class="container m-bg">
+			<div class="sect-size">
+				<div>
+					<h2>Contact</h2>
+					<p>Are you slepy? Our brand NAAM it a good choice for a good night's sleep..</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /Section Four -->
+
+	<!-- Scroll -->
+	<section class="scroll">
+		<div class="top">
+			<a href="#home">
+				<svg class="btn-top" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 28">
+					<g id="arr" transform="translate(-1753 -3303)">
+						<circle id="Ellipse_6" data-name="Ellipse 6" cx="14" cy="14" r="14" transform="translate(1753 3303)"
+							fill="#0078d4" />
+						<path id="Union_3" data-name="Union 3" d="M4.533,179.962a2.551,2.551,0,0,1-.479-3.7l7.174-8.726a2.831,2.831,0,0,1,2.238-1.013,2.829,
+							2.829,0,0,1,2.238,1.013l7.174,8.726a2.55,2.55,0,0,1-.479,3.7,2.873,2.873,0,0,1-3.9-.454l-5.038-6.127-5.038,
+							6.127a2.826,2.826,0,0,1-2.189,1.014A2.858,2.858,0,0,1,4.533,179.962Z" transform="translate(1753.534 3142.479)"
+							fill="#fff" />
+					</g>
+				</svg>
+				<div class="back">Back to top</div>
+			</a>
+		</div>
+	</section>
+	<!-- /Scroll -->
+
+	<footer class="bg-footer">
+		<div class="container made">
+			<div class="contacts row">
+				<div class="col">
+					<a href="https://www.linkedin.com/in/mu7ammadkamel/" class="in-profile">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28"
+							viewBox="0 0 50 50">
+							<image id="in" width="50" height="50" opacity="0.85"
+								xlink:href="data:image/jpeg;base64,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" />
+						</svg>
+					</a>
+				</div>
+				<div class="col">
+					<a href="https://github.com/muhammadkamel/" class="git-profile">
+						<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 50 48.766">
+							<g id="Github" transform="translate(-290.221 -58.431)" opacity="0.85">
+								<path id="Path_45" data-name="Path 45"
+									d="M315.221,58.431a25,25,0,0,0-7.9,48.723c1.249.231,1.708-.543,1.708-1.2,0-.6-.023-2.565-.034-4.655-6.955,1.513-8.423-2.95-8.423-2.95-1.137-2.889-2.776-3.658-2.776-3.658-2.268-1.552.171-1.52.171-1.52a5.255,5.255,0,0,1,3.832,2.577c2.23,3.822,5.849,2.717,7.275,2.078a5.325,5.325,0,0,1,1.587-3.343c-5.553-.632-11.39-2.776-11.39-12.355a9.675,9.675,0,0,1,2.576-6.71,8.984,8.984,0,0,1,.242-6.616s2.1-.671,6.877,2.563a23.7,23.7,0,0,1,12.52,0c4.772-3.235,6.868-2.563,6.868-2.563a8.973,8.973,0,0,1,.245,6.616,9.656,9.656,0,0,1,2.573,6.71c0,9.6-5.848,11.716-11.415,12.335a5.977,5.977,0,0,1,1.7,4.63c0,3.345-.029,6.037-.029,6.861,0,.666.45,1.445,1.717,1.2a25,25,0,0,0-7.918-48.72Z"
+									fill="#fff" fill-rule="evenodd" />
+								<path id="Path_46" data-name="Path 46"
+									d="M313.093,145.134c-.133.3-.6.391-1.035.185s-.684-.607-.542-.907.6-.4,1.04-.189.689.611.537.911Zm-.743-.55"
+									transform="translate(-4.773 -50.778)" />
+								<path id="Path_47" data-name="Path 47"
+									d="M315.539,147.863c-.288.266-.851.142-1.233-.279a.923.923,0,0,1-.177-1.255c.3-.267.843-.142,1.239.279s.472.984.171,1.255Zm-.576-.618"
+									transform="translate(-14.113 -52.231)" />
+								<path id="Path_48" data-name="Path 48"
+									d="M317.92,151.34c-.37.258-.975.017-1.349-.52s-.37-1.182.008-1.44.971-.025,1.35.507.369,1.191-.009,1.453Zm0,0"
+									transform="translate(-15.525 -54.234)" />
+								<path id="Path_49" data-name="Path 49"
+									d="M321.182,154.7c-.331.365-1.036.266-1.552-.232a1.161,1.161,0,0,1-.343-1.543c.335-.365,1.044-.262,1.564.232s.684,1.181.331,1.543Zm0,0"
+									transform="translate(-17.252 -64.196)" />
+								<path id="Path_50" data-name="Path 50"
+									d="M325.682,156.652c-.146.472-.825.687-1.509.486s-1.13-.761-.992-1.238.824-.7,1.513-.485,1.13.755.988,1.237Zm0,0"
+									transform="translate(-19.717 -64.74)" />
+								<path id="Path_51" data-name="Path 51"
+									d="M330.624,157.013c.017.5-.563.911-1.281.92s-1.306-.387-1.314-.877.567-.911,1.289-.924,1.306.387,1.306.881Zm0,0"
+									transform="translate(-22.642 -64.908)" />
+								<path id="Path_52" data-name="Path 52"
+									d="M335.223,156.231c.086.485-.413.984-1.126,1.117s-1.35-.172-1.439-.653c-.087-.5.421-1,1.121-1.126s1.353.168,1.444.662Zm0,0"
+									transform="translate(-25.406 -64.78)" />
+							</g>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div>
+				<h6>Designed with <span>
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.829"
+							height="23.604" viewBox="0 0 28.829 23.604">
+							<defs>
+								<linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+									<stop offset="0" stop-color="#ff000a" />
+									<stop offset="1" stop-color="#e31b23" />
+								</linearGradient>
+							</defs>
+							<path id="Love"
+								d="M14.415,8.452V23.6S3.563,17.284.692,10.318A7.2,7.2,0,0,1,0,7.227c0-.066,0-.131,0-.2A6.458,6.458,0,0,1,.348,5.005a7.19,7.19,0,0,1,.706-1.538A5.633,5.633,0,0,1,2.579,1.692,7.2,7.2,0,0,1,7.225,0a7.278,7.278,0,0,1,1.1.083L8.311.065S12.776.358,14.485,3.9C16.058.638,19.968.132,20.577.072A7.29,7.29,0,0,1,21.6,0a7.2,7.2,0,0,1,4.646,1.692,5.636,5.636,0,0,1,1.527,1.777A7.187,7.187,0,0,1,28.481,5a6.452,6.452,0,0,1,.346,2.026c0,.065,0,.131,0,.2a7.2,7.2,0,0,1-.692,3.09C25.266,17.284,14.415,23.6,14.415,23.6Z"
+								fill="#e00000" />
+						</svg>
+					</span>
+				</h6>
+				<h6>Copyright @ naam</h6>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script src="js/vue.js"></script>
+	<script src="js/vueapp.js"></script>
+
+</body>
