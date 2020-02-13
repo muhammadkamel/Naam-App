@@ -25,6 +25,7 @@ body {
 header {
   background-color: #fdfdfd;
   height: auto;
+  padding-bottom: 100px;
   overflow: hidden;
 }
 
@@ -118,7 +119,7 @@ header .misssion {
   text-align: center;
   text-transform: none;
   position: relative;
-  font-size: 40px;
+  font-size: 35px;
   color: #202020;
 }
 
@@ -127,7 +128,7 @@ header .find-txt {
   text-transform: none;
   position: relative;
   margin-top: 60px;
-  font-size: 40px;
+  font-size: 25px;
   font-style: italic;
   color: #202020;
 }
