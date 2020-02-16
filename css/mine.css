@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-color: #fdfdfd;
+  background-color: #fafbfc;
   height: auto;
   padding-bottom: 100px;
   overflow: hidden;
@@ -173,7 +173,7 @@ header .b-go {
 }
 
 .section-sz {
-  background-color: #fafafa;
+  background-color: #fafbfc;
   margin-top: 20px;
   height: auto;
 }
@@ -238,7 +238,7 @@ header .b-go {
 /* Section Two */
 
 .scroll {
-  background-color: #fafafa;
+  background-color: #fafbfc;
   height: 90px;
   margin-top: 20px;
   /* margin-bottom: 20px; */
