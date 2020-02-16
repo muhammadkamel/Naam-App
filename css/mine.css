@@ -51,6 +51,15 @@ header {
   position: relative;
 }
 
+.navbar-toggler-icon {
+  background-image: url("../img/newmenu.svg") !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
 .navbar-light .navbar-brand {
   cursor: default;
   position: relative;
