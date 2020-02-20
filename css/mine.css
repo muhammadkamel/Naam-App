@@ -156,7 +156,7 @@ header .misssion {
   text-transform: none;
   position: relative;
   font-size: 30px;
-  color: #202020;
+  color: #666;
 }
 
 header .find-txt {
@@ -167,7 +167,7 @@ header .find-txt {
   font-size: 25px;
   font-weight: 300;
   font-style: italic;
-  color: #0073bd;
+  color: #666;
 }
 
 header .b-go {
@@ -261,6 +261,15 @@ header .b-go {
 
 .time button {
   float: right;
+  background-color: #77e;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: #77c;
+  color: #fafafa !important;
 }
 
 /* /Section One */
@@ -290,7 +299,7 @@ header .b-go {
 
 .top .back {
   text-transform: uppercase;
-  color: #4682b4;
+  color: #77e;
   padding: 2px;
   font-size: 14px;
 }
