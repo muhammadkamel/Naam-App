@@ -73,11 +73,9 @@ header {
   background-color: transparent;
   color: #303003;
   font-size: 16px;
-  transition: 0.3s ease-in-out;
   margin-left: 10px;
   margin-bottom: 0px;
   padding: 14px;
-  background-color: transparent;
   transition: 0.3s ease-in-out;
 }
 
@@ -85,11 +83,14 @@ header {
   background-color: #fff;
   color: #222 !important;
   font-weight: 300;
+  color: steelblue;
+  border-bottom: 1px solid transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: #4682b4;
-  color: #fff !important;
+  /* background-color: #4682b4; */
+  color: #666 !important;
+  border-bottom: 1px solid lightsteelblue;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
