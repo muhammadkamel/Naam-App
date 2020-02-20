@@ -232,6 +232,10 @@ header .b-go {
   margin-top: 110px;
 }
 
+.table .border-r {
+  border-right: 1px solid #e9e9e9;
+}
+
 .table tr th {
   font-size: 18px;
   font-weight: 100;
@@ -239,12 +243,12 @@ header .b-go {
 
 .table tr th span {
   display: inline-block;
-  background-color: #fff;
+  background-color: #fafafa;
   font-weight: 300;
   color: #333;
   padding: 10px;
   border-radius: 3px;
-  border: 2px solid #e9e9e9;
+  border: 1px solid #e9e9e9;
 }
 
 .table tbody {
