@@ -136,7 +136,7 @@ header {
   /* margin-left: 16px; */
   margin: 0 auto;
   text-align: left;
-  padding: 20px;
+  padding: 17px;
   float: none;
   display: inline-block;
 }
@@ -326,7 +326,7 @@ header .b-go {
 }
 
 .bg-footer h6 {
-  color: #999;
+  color: #666;
   font-size: 14px;
   margin-top: 10px;
 }
