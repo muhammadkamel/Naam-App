@@ -113,7 +113,7 @@ header {
 .nav-item:hover {
   margin-left: 0px;
   margin-bottom: 0px;
-  background-color: #ededf0;
+  /* background-color: #ededf0; */
 }
 
 .arrow {
@@ -137,6 +137,8 @@ header {
   margin: 0 auto;
   text-align: left;
   padding: 20px;
+  float: none;
+  display: inline-block;
 }
 
 header .header-info {
