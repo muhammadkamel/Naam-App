@@ -243,12 +243,13 @@ header .b-go {
 
 .table tr th span {
   display: inline-block;
-  background-color: #fafafa;
+  background-color: #3F20A1;
   font-weight: 300;
-  color: #333;
-  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+  padding: 7px;
   border-radius: 3px;
-  border: 1px solid #e9e9e9;
+  border: 1px solid #3F20A1;
 }
 
 .table tbody {
