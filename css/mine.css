@@ -88,7 +88,11 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
+<<<<<<< HEAD
   background-color: #4682b4;
+=======
+  background-color: #FE6;
+>>>>>>> 4441ad8d0342cc6d272da06106b983e298b46017
   color: #fff !important;
 }
 
