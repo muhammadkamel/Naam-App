@@ -93,7 +93,7 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: orange;
+  background-color: #FE6;
   color: #fff !important;
 }
 
