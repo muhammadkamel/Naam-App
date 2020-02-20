@@ -18,12 +18,12 @@
 }
 
 body {
-  background-color: #fefefe;
+  background-color: #fff;
   /* height: 2500px; */
 }
 
 header {
-  background-color: #fafafa;
+  background-color: #fff;
   height: auto;
   overflow: hidden;
   padding-bottom: 200px;
@@ -202,7 +202,7 @@ header .b-go {
 
 .section-sz {
   /* background-color: #fafbfc; */
-  background-color: #fafafa;
+  background-color: #fff;
   margin-top: 10px;
   height: auto;
 }
@@ -268,7 +268,7 @@ header .b-go {
 /* Section Two */
 
 .scroll {
-  background-color: #fafbfc;
+  background-color: #fff;
   height: 90px;
   margin-top: 0px;
   /* margin-bottom: 20px; */
@@ -302,8 +302,9 @@ header .b-go {
 /* /Section Two */
 
 .bg-footer {
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
   padding: 2px;
+  border-top: 1px solid #eee;
 }
 
 .bg-footer h5 {
