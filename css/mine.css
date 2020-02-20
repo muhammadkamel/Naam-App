@@ -14,16 +14,16 @@
 * {
   font-family: Montserrat;
   box-sizing: border-box;
-  color: #202020;
+  /* color: #202020; */
 }
 
 body {
-  background-color: #eee;
+  background-color: #fefefe;
   /* height: 2500px; */
 }
 
 header {
-  background-color: #fff;
+  background-color: #fafafa;
   height: auto;
   overflow: hidden;
   padding-bottom: 200px;
@@ -86,13 +86,18 @@ header {
   color: inherit;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #0078d4 !important;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0073bd !important;
+}
+
 .ihome {
   padding: 14px;
   font-size: 16px;
-  color: #494949;
-}
-.ihome:hover {
-  color: #222;
 }
 
 .nav-item {
@@ -192,8 +197,8 @@ header .b-go {
 
 .section-sz {
   /* background-color: #fafbfc; */
-  background-color: #fff;
-  margin-top: 20px;
+  background-color: #fafafa;
+  margin-top: 10px;
   height: auto;
 }
 
@@ -260,7 +265,7 @@ header .b-go {
 .scroll {
   background-color: #fafbfc;
   height: 90px;
-  margin-top: 20px;
+  margin-top: 0px;
   /* margin-bottom: 20px; */
 }
 
