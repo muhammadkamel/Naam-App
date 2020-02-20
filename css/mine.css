@@ -290,7 +290,7 @@ header .b-go {
 
 .top .back {
   text-transform: uppercase;
-  color: #0078d4;
+  color: #4682b4;
   padding: 2px;
   font-size: 14px;
 }
@@ -303,7 +303,7 @@ header .b-go {
 
 .bg-footer {
   /* background-color: #1f1f1f; */
-  padding: 2px;
+  padding: 50px;
   border-top: 1px solid #eee;
 }
 
@@ -314,6 +314,8 @@ header .b-go {
 
 .bg-footer h6 {
   color: #999;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .made {
@@ -335,9 +337,11 @@ header .b-go {
 .in-profile {
   float: right;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .git-profile {
   float: left;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
