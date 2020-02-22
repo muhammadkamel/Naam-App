@@ -80,10 +80,9 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #222 !important;
   font-weight: 300;
-  color: steelblue;
   border-bottom: 1px solid transparent;
 }
 
