@@ -36,7 +36,7 @@ header {
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #fefefe;
   padding: 0px;
   margin: 0px;
   border-bottom: 1px solid #eee;
@@ -85,7 +85,7 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: steelblue;
+  background-color: #4682b4;
   color: #fff !important;
 }
 
@@ -239,13 +239,13 @@ header .b-go {
 
 .table tr th span {
   display: inline-block;
-  background-color: #3F20A1;
+  background-color: #6a9bc3;
   font-weight: 300;
   font-size: 15px;
   color: #fff;
   padding: 7px;
   border-radius: 3px;
-  border: 1px solid #3F20A1;
+  border: 1px solid #6a9bc3;
 }
 
 .table tbody {
@@ -262,14 +262,14 @@ header .b-go {
 
 .time button {
   float: right;
-  background-color: #77e;
+  background-color: #6a9bc3;
   color: #fff;
   font-size: 14px;
   padding: 5px;
 }
 
 .btn:hover {
-  background-color: #77c;
+  background-color: #7da7ca;
   color: #fafafa !important;
 }
 
@@ -300,7 +300,7 @@ header .b-go {
 
 .top .back {
   text-transform: uppercase;
-  color: #77e;
+  color: #6a9bc3;
   padding: 2px;
   font-size: 14px;
 }
