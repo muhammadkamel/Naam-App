@@ -244,7 +244,8 @@ header .b-go {
   font-size: 15px;
   color: #666;
   padding: 5px;
-  width: 100%;
+  width: max-content;
+  box-sizing: border-box;
   height: auto;
   line-height: 50px;
   border-radius: 3px;
