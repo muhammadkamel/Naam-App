@@ -31,14 +31,15 @@ header {
 
 .header-menu {
   background-color: transparent;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12),
-  inset 0 -1px 0 0 #dadce0;
+  /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12),
+  inset 0 -1px 0 0 #dadce0; */
 }
 
 .navbar {
   background-color: #fff;
   padding: 0px;
   margin: 0px;
+  border-bottom: 1px solid #eee;
 }
 
 .navbar-brand {
@@ -80,16 +81,12 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  /* background-color: #fff; */
   color: #222 !important;
-  font-weight: 300;
-  border-bottom: 1px solid transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: #3F20A1;
+  background-color: steelblue;
   color: #fff !important;
-  /* border-bottom: 1px solid lightsteelblue; */
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
