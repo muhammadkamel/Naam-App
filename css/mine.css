@@ -247,11 +247,10 @@ header .b-go {
   font-weight: 300;
   font-size: 20px;
   color: #666;
-  padding: 5px;
   /* width: max-content; */
   box-sizing: border-box;
   height: auto;
-  line-height: 50px;
+  line-height: 40px;
   border-bottom: 2px solid orange;
   border-radius: 0px;
 }
