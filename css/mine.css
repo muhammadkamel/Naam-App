@@ -151,7 +151,7 @@ header .misssion {
   text-align: center;
   text-transform: none;
   position: relative;
-  font-size: 30px;
+  font-size: 25px;
   color: #666;
 }
 
@@ -160,7 +160,7 @@ header .find-txt {
   text-transform: none;
   position: relative;
   margin-top: 60px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 300;
   font-style: italic;
   color: #666;
@@ -237,7 +237,7 @@ header .b-go {
 }
 
 .table tr th {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -245,7 +245,7 @@ header .b-go {
   display: inline-block;
   background-color: transparent;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   color: #666;
   /* width: max-content; */
   box-sizing: border-box;
@@ -256,7 +256,7 @@ header .b-go {
 }
 
 .table tbody {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .time {
