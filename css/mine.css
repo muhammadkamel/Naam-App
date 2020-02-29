@@ -86,7 +86,6 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  /* background-color: #4682b4; */
   background-color: #FEC106;
   color: #222 !important;
 }
