@@ -36,7 +36,7 @@ header {
 }
 
 .navbar {
-  background-color: #ee9;
+  background-color: #fefefe;
   padding: 0px;
   margin: 0px;
   border-bottom: 1px solid #eee;
@@ -81,12 +81,14 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: steelblue !important;
+  color: #222 !important;
+  line-height: 40px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color: #fefefe;
-  color: #555 !important;
+  /* background-color: #4682b4; */
+  background-color: #212121;
+  color: #fff !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -243,18 +245,16 @@ header .b-go {
 
 .table tr th span {
   display: inline-block;
-  background-color: #ee9;
+  background-color: #f5f5f5;
   font-weight: 300;
   font-size: 18px;
-  color: #555;
+  color: #666;
   /* width: max-content; */
   box-sizing: border-box;
   height: auto;
   line-height: 40px;
-  border-top: 2px solid #ee9;
-  border-bottom: 2px solid #ee9;
-  border-radius: 9px;
-  padding: 5px;
+  padding: 7px;
+  border-radius: 10px;
 }
 
 .table tbody {
