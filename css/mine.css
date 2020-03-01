@@ -14,16 +14,16 @@
 * {
   font-family: Montserrat;
   box-sizing: border-box;
-  /* color: #202020; */
+  color: #fff;
 }
 
 body {
-  background-color: #fff;
+  background-color: #202124;
   /* height: 2500px; */
 }
 
 header {
-  background-color: #fff;
+  background-color: #202124;
   height: auto;
   overflow: hidden;
   padding-bottom: 200px;
@@ -36,10 +36,10 @@ header {
 }
 
 .navbar {
-  background-color: #fefefe;
+  background-color: #202124;
   padding: 0px;
   margin: 0px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #2a2c31;
 }
 
 .navbar-brand {
@@ -72,16 +72,12 @@ header {
 
 .navbar-light .navbar-nav .nav-link {
   background-color: transparent;
-  color: #303003;
+  color: #666;
   font-size: 16px;
   margin-left: 10px;
   margin-bottom: 0px;
   padding: 14px;
   transition: 0.3s ease-in-out;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #606060 !important;
   line-height: 40px;
 }
 
@@ -140,7 +136,7 @@ header .header-info {
   margin: 0;
   padding: 0;
   position: relative;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
@@ -195,7 +191,7 @@ header .b-go {
 
 .section-sz {
   /* background-color: #fafbfc; */
-  background-color: #fff;
+  background-color: #202124;
   margin-top: 10px;
   height: auto;
 }
@@ -209,7 +205,7 @@ header .b-go {
 
 .sect-size {
   background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.111);
+  /* border: 1px solid rgba(255, 255, 255, 0.111); */
   border-radius: 20px;
   padding: 0px;
 }
@@ -222,7 +218,7 @@ header .b-go {
 }
 
 .table {
-  border: 2px solid #eee;
+  /* border: 2px solid #eee; */
 }
 
 #resultsNow {
@@ -262,6 +258,7 @@ header .b-go {
 
 .time h5 {
   text-align: center;
+  color: #fff;
 }
 
 .time button {
@@ -282,7 +279,7 @@ header .b-go {
 /* Section Two */
 
 .scroll {
-  background-color: #fff;
+  background-color: transparent;
   height: 90px;
   margin-top: 0px;
   /* margin-bottom: 20px; */
@@ -318,7 +315,7 @@ header .b-go {
 .bg-footer {
   /* background-color: #1f1f1f; */
   padding: 10px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #2a2c31;
 }
 
 .bg-footer h5 {
