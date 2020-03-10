@@ -36,7 +36,7 @@ header {
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding: 0px;
   margin: 0px;
   border-bottom: 1px solid #eee;
@@ -192,7 +192,7 @@ header .b-go {
 .section-sz {
   /* background-color: #fafbfc; */
   background-color: #fff;
-  margin-top: 10px;
+  margin-top: 1px;
   height: auto;
 }
 
@@ -247,6 +247,7 @@ header .b-go {
   padding: 7px;
   border: 2px solid #7777ff;
   border-radius: 10px;
+  cursor: default;
 }
 
 .table tbody {
@@ -259,7 +260,7 @@ header .b-go {
 
 .time h5 {
   text-align: center;
-  color: #fff;
+  color: #666;
 }
 
 .time button {
