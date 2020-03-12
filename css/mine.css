@@ -23,9 +23,9 @@ body {
 }
 
 header {
-  background: url("../img/8lJFQj.jpg");
-  background-size: cover;
+  background: url("../img/bg.jpg");
   background-position: center;
+  background-size: cover;
   height: auto;
   overflow: hidden;
   padding-bottom: 200px;
