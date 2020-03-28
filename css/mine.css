@@ -33,7 +33,6 @@ header {
 }
 
 .header-menu {
-  height: 50px;
   /* background: url("../img/8lJFQj.jpg"); */
   /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12),
   inset 0 -1px 0 0 #dadce0; */
@@ -92,7 +91,7 @@ header {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  background-color: #7777ff;
+  border-bottom: 2px solid #7777ff;
   color: #ffffff !important;
 }
 
