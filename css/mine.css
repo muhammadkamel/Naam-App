@@ -134,10 +134,46 @@ header {
   transform: translateY(5px);
 }
 
+.h-bolder {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px;
+}
+
+.h-bolder h4 {
+  margin: 10px 0 10px 0;
+  color: #333;
+}
+
+/* iPhone icon */
+.full-iPhone {
+  background-color: #fff;
+  height: 707px;
+}
+.iPhone {
+  background-color: #fff;
+  padding: 40px;
+}
+.iPhone svg {
+  width: 100%;
+}
+.goNaam {
+  background-color: #fff;
+}
+.goNaam h3 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.goNaam .dont {
+  font-weight: bold;
+}
+
 .navbar-expand-md .navbar-nav .nav-link {
   /* margin-left: 16px; */
   margin: 0 auto;
   text-align: left;
+  font-size: 15px;
   padding: 17px 12px;
   float: none;
   display: inline-block;
