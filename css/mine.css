@@ -451,7 +451,7 @@ td span {
 
 .top .back {
   text-transform: uppercase;
-  color: #7777ff;
+  color: #007bff;
   padding: 2px;
   font-size: 14px;
 }
@@ -484,6 +484,10 @@ td span {
   margin: 0 auto;
   position: relative;
   /* bottom: -100px; */
+}
+
+.sect-size p {
+  font-size: 20px;
 }
 
 /* Contatcs */
