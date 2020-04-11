@@ -6,8 +6,7 @@
 @font-face {
   font-family: "BrownStd";
   src: url("../fonts/brownStd/BrownStdRegular.eot");
-  src: url("../fonts/brownStd/BrownStdRegulard41d.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("../fonts/brownStd/BrownStdRegulard41d.eot?#iefix") format("embedded-opentype"),
     url("../fonts/brownStd/BrownStdRegular.woff") format("woff"),
     url("../fonts/brownStd/BrownStdRegular.ttf") format("truetype"),
     url("../fonts/brownStd/BrownStdRegular.svg") format("svg");
@@ -45,7 +44,7 @@ header {
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  box-shadow: 0px 0px 9px 0px rgba(0, 0 , 0, 0.1);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin: 0px;
 }
@@ -111,6 +110,7 @@ header {
   /* background-color: #fff; */
   transition: 0.3s ease-in-out;
 }
+
 .nav-item:hover {
   margin-left: 0px;
   margin-bottom: 0px;
@@ -147,24 +147,30 @@ header {
 
 /* iPhone icon */
 .full-iPhone {
-  background-color: #fff;
+  background-color: #FDFDFD;
   height: 707px;
 }
+
 .iPhone {
-  background-color: #fff;
+  background-color: transparent;
   padding: 40px;
 }
+
 .iPhone svg {
   width: 100%;
 }
+
 .goNaam {
   background-color: #fff;
 }
+
 .goNaam h3 {
   padding: 0;
   margin: 0;
   text-align: center;
+  background-color: #FDFDFD;
 }
+
 .goNaam .dont {
   font-weight: bold;
 }
@@ -231,6 +237,7 @@ header .b-go {
   margin: 0 auto;
   text-align: center;
 }
+
 /* /Video */
 
 /* Section One */
@@ -261,7 +268,7 @@ header .b-go {
 
 .section-sz {
   /* background-color: #fafbfc; */
-  background-color: #fff;
+  background-color: #FDFDFD;
   margin-top: 1px;
   height: auto;
 }
@@ -295,7 +302,7 @@ header .b-go {
   margin-top: 110px;
 }
 
-.table .border-r {
+.table {
   border-right: 1px solid #e9e9e9;
 }
 
@@ -331,6 +338,7 @@ header .b-go {
 .time h5 {
   text-align: center;
   color: #666;
+  line-height: 60px;
 }
 
 .bg-time {
@@ -342,7 +350,44 @@ header .b-go {
   border: 1px solid #111 !important;
 }
 
-#resultNow1 {
+.current-time {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.current-time h5 {
+  color: #0097FF;
+}
+
+.first-sqr {
+  margin-top: 100px;
+}
+
+.border-r {
+  text-justify: auto;
+  text-align: center;
+}
+
+.border-r h3 {
+  font-weight: bold;
+  color: #0097FF;
+}
+
+.sqr {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 0;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  line-height: 20px;
+  color: #0097FF;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 td span {
