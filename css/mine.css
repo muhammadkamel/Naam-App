@@ -15,7 +15,8 @@
 }
 
 * {
-  font-family: Montserrat;
+  font-family: BrownStd;
+  /* letter-spacing: 0.4px; */
   box-sizing: border-box;
   /* color: #fff; */
 }
@@ -32,7 +33,7 @@ header {
   background-size: cover;
   height: auto;
   overflow: hidden;
-  padding-bottom: 200px;
+  padding-bottom: 90px;
 }
 
 .header-menu {
@@ -135,14 +136,14 @@ header {
 }
 
 .h-bolder {
-  background-color: #f9f9f9;
+  background-color: #0097FF;
   text-align: center;
   padding: 10px;
 }
 
 .h-bolder h4 {
   margin: 10px 0 10px 0;
-  color: #333;
+  color: #fff;
 }
 
 /* iPhone icon */
@@ -156,8 +157,12 @@ header {
   padding: 40px;
 }
 
-.iPhone svg {
-  width: 100%;
+.iPhone svg,
+.iPhone a {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .goNaam {
@@ -179,11 +184,12 @@ header {
   /* margin-left: 16px; */
   margin: 0 auto;
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
   padding: 17px 12px;
   float: none;
   display: inline-block;
   line-height: 8px;
+  letter-spacing: 0.4px;
 }
 
 header .header-info {
@@ -376,18 +382,22 @@ header .b-go {
 .sqr {
   background-color: #fff;
   border: 1px solid #ddd;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   padding: 0;
   display: block;
   text-align: center;
   margin: 20px auto;
   align-items: center;
-  line-height: 20px;
+  line-height: 80px;
   color: #0097FF;
   font-size: 25px;
   font-weight: bold;
+}
+
+.sqr h2 {
+  padding-top: 20px;
 }
 
 td span {
