@@ -360,7 +360,7 @@ header .b-go {
 }
 
 .first-sqr {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .border-r {
@@ -382,7 +382,7 @@ header .b-go {
   padding: 0;
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
   align-items: center;
   line-height: 20px;
   color: #0097FF;
